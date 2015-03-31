@@ -1,0 +1,108 @@
+body {
+    background: url(../img/back.jpg) repeat center top;
+}
+
+.main_content {
+    text-align: center;
+}
+
+.day_of_week {
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.day_of_week:hover {
+    color: #000000;
+}
+
+.main {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.white {
+    color: #fff;
+}
+
+.circle {
+    font-size: 20px;
+
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #000000 !important;
+
+    margin: 10px;
+}
+
+.lg {
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.sm {
+    line-height: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.circle:hover {
+    border: 1px solid #9b8e61 !important;
+}
+
+.circle.active {
+    border: 1px solid #9b8e61 !important;
+}
+
+.inline_p {
+    display: inline;
+    vertical-align: top;
+}
+
+.lesson_index {
+    font-size: 15px;
+}
+
+.lesson_name {
+    font-size: 15px;
+}
+
+.lessons_list {
+    border-right: 2px dashed;
+    border-color: #9b8e61;
+
+    padding-top: 20px;
+    text-align: left;
+}
+
+.day_dashes {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 70px;
+}
+
+.day_dashes.active {
+    border-color: #9b8e61 !important;
+    border-left: 2px dashed;
+}
+
+.notes_block {
+    padding-top: 20px;
+}
+
+.days_of_week_navbar {
+    border-bottom: 1px solid;
+    border-color: #000000;
+    padding-bottom: 15px;
+}

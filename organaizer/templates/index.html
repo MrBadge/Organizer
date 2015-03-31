@@ -1,0 +1,90 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+
+<div class="main_content container">
+    <div class="row">
+        <div class="col-lg-6 days_of_week_navbar">
+            <div class="circle lg inline white active">
+                <a class="day_of_week" href="#">ПН</a>
+                <div class="day_dashes active"></div>
+            </div>
+            <div class="circle lg inline white">
+                <a class="day_of_week" href="#">ВТ</a>
+                <div class="day_dashes"></div>
+            </div>
+            <div class="circle lg inline white">
+                <a class="day_of_week" href="#">СР</a>
+                <div class="day_dashes"></div>
+            </div>
+            <div class="circle lg inline white">
+                <a class="day_of_week" href="#">ЧТ</a>
+                <div class="day_dashes"></div>
+            </div>
+            <div class="circle lg inline white">
+                <a class="day_of_week" href="#">ПТ</a>
+                <div class="day_dashes"></div>
+            </div>
+            <div class="circle lg inline white">
+                <a class="day_of_week" href="#">СБ</a>
+                <div class="day_dashes"></div>
+            </div>
+            <div class="circle lg inline white">
+                <a class="day_of_week" href="#">ВС</a>
+                <div class="day_dashes"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 lessons_list">
+            <div>
+                <div class="circle sm inline">
+                    <p class="lesson_index">1</p>
+                </div>
+                <div class="inline">Алгебра</div>
+            </div>
+            <div>
+                <div class="circle sm inline">
+                    <p class="lesson_index">2</p>
+                </div>
+                <div class="inline">Физика</div>
+            </div>
+            <div>
+                <div class="circle sm inline">
+                    <p class="lesson_index">3</p>
+                </div>
+                <div class="inline">Теология</div>
+            </div>
+            <div>
+                <div class="circle sm inline">
+                    <p class="lesson_index">4</p>
+                </div>
+                <div class="inline">Физкультура</div>
+            </div>
+            <div>
+                <div class="circle sm inline">
+                    <p class="lesson_index">5</p>
+                </div>
+                <div class="inline">Доп инфа</div>
+            </div>
+        </div>
+        <div class="col-lg-4 notes_block">
+            <p>Это короткий текст заметки!</p>
+        </div>
+    </div>
+    <hr>
+</div>
+
+
+<script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
